@@ -43,6 +43,7 @@ mysqlbackup --user=[username] --password --incremental
 --backup-dir=[incremental_backup_directory]
 --with-timestamp backup-and-apply-log
 ```
+где
 -user и --password: Указывают имя пользователя и пароль для подключения к базе данных.  
 -incremental: Указывает, что выполняется инкрементное резервное копирование.  
 -incremental-base: Указывает базу для инкрементного резервного копирования. В данном случае используется путь к предыдущему резервному копированию.  
